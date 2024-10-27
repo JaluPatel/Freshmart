@@ -1,0 +1,1605 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Freshmart</title>
+    <!-- CSS FILE LINK -->
+	<link rel="stylesheet" href="Freshmart.css">
+
+	<!-- ICON-LINK -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+		integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+		crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+	<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+		rel="stylesheet">
+
+	<link
+		href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+		rel="stylesheet">
+	<!-- animation scroll link -->
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+</head>
+<body>
+    <script>
+		var cros = 0;
+		function news() {
+			if (cros == 1) {
+				// document.getElementById("main").style.display = "block";
+				// cros = 0;
+			}
+			else {
+				document.getElementById("main").style.display = "none";
+				cros = 1;
+			}
+		}
+	</script>
+
+    <!-- NEWSLATTER-BLOCK-STAT -->
+	<div class="n-main" id="main">
+		<div class="margin">
+			<div class="image">
+				<div class="n-header">
+					<button onclick="news();">
+						<i class="fa-solid fa-xmark"></i>
+					</button>
+				</div>
+				<div class="n-body">
+					<div class="n-margin">
+						<div class="n-inner">
+							<div class="name">
+								Newsletter
+							</div>
+							<p class="discrip">
+								Sign up for newsletter to receive special offers and exclusive news about FreshMart
+								products
+							</p>
+							<div class="form">
+								<input type="email" placeholder="Enter Your Email">
+								<span class="input-b">
+									<button type="submit" class="n-btn">Subscribe</button>
+								</span>
+							</div>
+							<div class="chekbox">
+								<label class="mychek">
+									<span>
+										<input type="checkbox" class="check">
+									</span>
+									<span class="dis">Don’t show this popup again</span>
+								</label>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- NEWSLATTER-BLOCK-END -->
+
+    <!-- Header start -->
+     <div class="main-header">
+        <div class="top-header">
+            <div class="container">
+                <div class="top-inner">
+                    <div class="left">
+                        <div class="left-inner">
+                            <div class="flex-block">
+                                <div class="email" style="margin-right: 30px;">
+									<span class="icon-1"><i class="fa-solid fa-envelope"></i></span>
+									<span class="txt1">Email: support@vinovathemes.com</span>
+								</div>
+								<div class="email">
+									<span class="icon-1"><i class="fa-brands fa-skype"></i></span>
+									<span class="txt1">Skype: fresh.vinova</span>
+								</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="right">
+                        <div class="right-inner">
+                            <div class="wishlist">
+								<a href="#">
+									<i class="fa-regular fa-heart"></i>
+									Wishlist
+								</a>
+							</div>
+                            <div class="currency">
+								<a href="#">USD
+									<i class="fa-solid fa-chevron-down"></i>
+								</a>
+							</div>
+							<div class="account">
+								<a href="#">Login</a>
+								<span>or</span>
+								<a href="#">Register</a>
+							</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+     </div>
+     <div class="bottom-header">
+        <div class="container">
+            <div class="bottom-inner">
+                <div class="image">
+                    <i class="fa-solid fa-bars"></i>
+                    <a href="#">
+                        <img src="assets/images/freshmart/logo.png" alt="">
+                    </a>
+                </div>
+                <div class="main-menu">
+                    <ul class="list">
+                        <li>
+                            <a href="#" title="Home">Home</a>
+                            <ul class="sub-menu">
+                                <li>
+                                    <a href="#">Home Page 1</a>
+                                </li>
+                                <li>
+                                    <a href="#">Home Page 1</a>
+                                </li>
+                                <li>
+                                    <a href="#">Home Page 1</a>
+                                </li>
+                                <li>
+                                    <a href="#">Home Page 1</a>
+                                </li>
+                                <li>
+                                    <a href="#">Home Page 1</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#" title="Pages">Pages</a>
+                            <ul class="mega-menu">
+                                <li>
+                                    <h2>Collection</h2>
+                                    <ul>
+                                        <li>
+                                            <a href="">Collection Left Sidebar</a>
+                                        </li>
+                                        <li>
+                                            <a href="">Collection Right Sidebar</a>
+                                        </li>
+                                        <li>
+                                            <a href="">Collection Full Width</a>
+                                        </li>
+                                        <li>
+                                            <a href="">Collection Canvas Sidebar</a>
+                                        </li>
+                                        <li>
+                                            <a href="">All Collections</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <h2>Product Single</h2>
+                                    <ul>
+                                        <li>
+                                            <a href="">Single Product v1</a>
+                                        </li>
+                                        <li>
+                                            <a href="">Single Product v2</a>
+                                        </li>
+                                        <li>
+                                            <a href="">Single Product v3</a>
+                                        </li>
+                                        <li>
+                                            <a href="">Single Product v4</a>
+                                        </li>
+                                        <li>
+                                            <a href="">Single Product v5</a>
+                                        </li>
+                                        <li>
+                                            <a href="">Single Product v6</a>
+                                        </li>
+                                        <li>
+                                            <a href="">Product Pre-order</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <h2>Inner Pages</h2>
+                                    <ul>
+                                        <li>
+                                            <a href="">About Us</a>
+                                        </li>
+                                        <li>
+                                            <a href="">Contact Usr</a>
+                                        </li>
+                                        <li>
+                                            <a href="">FAQs Page</a>
+                                        </li>
+                                        <li>
+                                            <a href="">Term and Services</a>
+                                        </li>
+                                        <li>
+                                            <a href="">Privacy Policy</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a class="header-img" href="#">
+                                        <img src="assets/images/freshmart/header-pic.webp" alt="">
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#" title="Vegetables">Vegetables</a>
+                            <ul class="merge-menu">
+                                <li>
+                                    <ul>
+                                        <li>
+                                            <a href="#">
+                                                <h2>Best Seller</h2>
+                                                <i class="fa-solid fa-chevron-down"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <h2>New Arrival</h2>
+                                                <i class="fa-solid fa-chevron-down"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <h2>Top Trending</h2>
+                                                <i class="fa-solid fa-chevron-down"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <h2>On sale</h2>
+                                                <i class="fa-solid fa-chevron-down"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <h2>Denim Collection</h2>
+                                                <i class="fa-solid fa-chevron-down"></i>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <h2>Leaf vegetables</h2>
+                                    <ul>
+                                        <li>
+                                            <a href="#">Artichoke</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Asparagus</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Broccoli</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Cabbage</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Cucumber</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Lettuce</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Spinach</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Brussels sprouts</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <h2>Root vegetables</h2>
+                                    <ul>
+                                        <li>
+                                            <a href="#">Beetroot</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Carrot</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Potato</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Onion</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Yam</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Turnip</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Garlic</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a class="header-img" href="#">
+                                        <img src="assets/images/freshmart/header-pic.webp" alt="">
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#" title="">Blog</a>
+                            <ul class="blog-menu">
+                                <li>
+                                    <a href="#">Blog Left Sidebar</a>
+                                </li>
+                                <li>
+                                    <a href="#">Blog Right Sidebar</a>
+                                </li>
+                                <li>
+                                    <a href="#">Blog Without Sidebar</a>
+                                </li>
+                                <li>
+                                    <a href="#">Blog Grid With Sidebar</a>
+                                </li>
+                                <li>
+                                    <a href="#">Blog List With Sidebar</a>
+                                </li>
+                                <li>
+                                    <a href="#">Blog Detail Left Sidebar</a>
+                                </li>
+                                <li>
+                                    <a href="#">Blog Detail Right Sidebar</a>
+                                </li>
+                                <li>
+                                    <a href="#">Blog Detail Without Sidebar</a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                <div class="search-bar">
+                    <div class="form-search">
+                        <form action="search">
+                            <input class="input-search" type="text" placeholder="search">
+                            <button><i class="fa-solid fa-magnifying-glass"></i></button>
+                        </form>
+                    </div>
+                    <div class="cart-block">
+                        <div class="cart">
+                            <i class="fa-solid fa-basket-shopping"></i>
+                            <span id="rotate">
+                                <span class="rotate">0</span>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--  HEADER - END -->
+
+
+	<!-- BLOCK-1 MAIN-IMAGE-START -->
+    <div class="main-image">
+		<div class="container">
+			<div class="main-image-inner">
+				<div class="image">
+					<img src="assets/images/freshmart/home1-slideshow-3.jpg" alt="">
+					<div class="txt-2">
+						<h2 class="left">Exotic Vegetables</h2>
+						<p class="ani-up">
+							Treat yourself to dishes made up of exotic vegetables and cherish the eccentric taste of
+							these veggies
+						</p>
+					</div>
+                    
+					<ul class="dote">
+						<li>
+							<button></button>
+						</li>
+						<li>
+							<button></button>
+						</li>
+						<li>
+							<button></button>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+
+     	<!-- BLOCK-1 MAIN-IMAGE-end -->
+
+      
+
+   <!-- BLOCK-2 GALLARY-BLOCK-STRAT -->
+	<div class="gallary-main">
+		<div class="container">
+			<div class="gallary-inner">
+				<div class="item">
+					<div class="item-inner">
+						<a href="#">
+							<img src="assets/images/freshmart/home1-banner-1.png" alt="">
+						</a>
+					</div>
+				</div>
+				<div class="item">
+					<div class="item-inner">
+						<a href="#">
+							<img src="assets/images/freshmart/home1-banner-2.png" alt="">
+						</a>
+					</div>
+				</div>
+				<div class="item">
+					<div class="item-inner">
+						<a href="#">
+							<img src="assets/images/freshmart/home1-banner-3.png" alt="">
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- BLOCK-2 GALLARY-BLOCK-END --> 
+
+    <div class="two-part">
+		<div class="container">
+			<div class="two-part-inner">
+				<div class="left-part">
+					<div class="left-part-inner">
+						<div class="shopify-category">
+							<div class="product-title">
+								<h2>Categories</h2>
+							</div>
+							<ul class="detail-block">
+								<li>
+									<a href="#">Vegitables
+										<i class="fa-solid fa-chevron-right"></i>
+									</a>
+								</li>
+								<li>
+									<a href="#">Fruits
+										<i class="fa-solid fa-chevron-right"></i>
+									</a>
+								</li>
+								<li>
+									<a href="#">Juices
+										<i class="fa-solid fa-chevron-right"></i>
+									</a>
+								</li>
+								<li>
+									<a href="#">Tea and Coffee</a>
+								</li>
+								<li>
+									<a href="#">Jam</a>
+								</li>
+								<li>
+									<a href="#">SeaFood</a>
+								</li>
+								<li>
+									<a href="#">Fresh Meats</a>
+								</li>
+							</ul>
+						</div>
+						<div class="product-deal">
+							<div class="product-title">
+								<h2>flash deals</h2>
+							</div>
+							<div class="product-block">
+								<div class="image">
+									<a href="#">
+										<img src="assets/images/freshmart/pich.webp" alt="">
+									</a>
+								</div>
+								<div class="image-hover">
+									<a href="#">
+										<img src="assets/images/freshmart/orange.webp" alt="">
+									</a>
+								</div>
+								<div class="count">
+									<div class="item">
+										<span class="text">Hours</span>
+										<span class="number">
+											<span>0</span>
+										</span>
+									</div>
+									<div class="item">
+										<span class="text">Mins</span>
+										<span class="number">
+											<span>00</span>
+										</span>
+									</div>
+									<div class="item">
+										<span class="text">Secs</span>
+										<span class="number">
+											<span>000</span>
+										</span>
+									</div>
+								</div>
+								<div class="details">
+									<a href="#">Organic Strawberry Fruits</a>
+								</div>
+								<div class="rating">
+									<i class="fa-solid fa-star"></i>
+									<i class="fa-solid fa-star"></i>
+									<i class="fa-solid fa-star"></i>
+									<i class="fa-solid fa-star"></i>
+									<i class="fa-solid fa-star"></i>
+								</div>
+								<div class="product-price">
+									<span>$34.00</span>
+									<span class="price">$60.00</span>
+								</div>
+								<div class="product-icon">
+									<a href="#">
+										<i class="fa-solid fa-check"></i>
+									</a>
+									<a href="#">
+										<i class="fa-solid fa-heart"></i>
+									</a>
+									<a href="#">
+										<i class="fa-solid fa-magnifying-glass"></i>
+									</a>
+								</div>
+							</div>
+							<div class="arrow-button">
+								<div class="button-1">
+									<i class="fa-solid fa-arrow-left"></i>
+								</div>
+								<div class="button-2">
+									<i class="fa-solid fa-arrow-right"></i>
+								</div>
+							</div>
+						</div>
+                        <div class="service-section">
+							<div class="service-section-inner">
+								<div class="item-service">
+									<i class="fa-solid fa-truck"></i>
+									<h2>Free Shipping item</h2>
+									<p>Proin gravida nibh vel velit auctor aliquet aenean</p>
+								</div>
+								<div class="item-service">
+									<i class="fa-solid fa-lock"></i>
+									<h2>Secured Payment</h2>
+									<p>Proin gravida nibh vel velit auctor aliquet aenean</p>
+								</div>
+								<div class="item-service">
+									<i class="fa-solid fa-coins"></i>
+									<h2>money back guarantee</h2>
+									<p>Proin gravida nibh vel velit auctor aliquet aenean</p>
+								</div>
+							</div>
+						</div>
+						<div class="review-block">
+							<div class="product-title">
+								<h2>Testimonial</h2>
+							</div>
+							<div class="detail-review">
+								<div class="cus-image">
+									<img src="assets/images/freshmart/testimonial-1.png" alt="">
+								</div>
+								<div class="contant">
+									“Proin gravida nibh vel velit auctor aliquet. Aenean solli cudin lorem quis bibendum
+									auctor nisi elit vel aerean
+									<br>
+									proin gravida
+								</div>
+								<div class="name">
+									WILLIAM JAMES
+								</div>
+								<div class="info">
+									Hairstyle
+								</div>
+								<div class="dote-slide">
+									<i class="fa-solid fa-circle"></i>
+									<i class="fa-solid fa-circle"></i>
+									<i class="fa-solid fa-circle"></i>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+                <div class="right-part">
+					<div class="right-part-inner">
+						<div class="heading-block">
+							<div class="title-name">
+								<h2>Vegetables</h2>
+							</div>
+							<ul class="right-button">
+								<li>
+									<a href="#">
+										<span>New Arrivals</span>
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<span>Best Seller</span>
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<span>On Sale</span>
+									</a>
+								</li>
+							</ul>
+						</div>
+						<div class="product-main-item">
+							<div class="product-main-inner">
+								<div class="product-item-1">
+									<div class="product-item-1-inner">
+										<div class="product-block">
+											<div class="image">
+												<a href="#">
+													<img src="assets/images/freshmart/1.webp" alt="">
+												</a>
+											</div>
+											<div class="image-hover">
+												<a href="#">
+													<img src="assets/images/freshmart/1.1.webp" alt="">
+												</a>
+											</div>
+											<div class="details" style="padding-top: 10px;">
+												<a href="#">Organic Strawberry Fruits</a>
+											</div>
+											<div class="rating" style="padding-bottom: 25px; padding-top: 10px;">
+												<i class="fa-solid fa-star"></i>
+												<i class="fa-solid fa-star"></i>
+												<i class="fa-solid fa-star"></i>
+												<i class="fa-solid fa-star"></i>
+												<i class="fa-solid fa-star"></i>
+											</div>
+											<div class="product-price">
+												<span>$5.00</span>
+											</div>
+											<div class="product-icon">
+												<a href="#">
+													<i class="fa-solid fa-basket-shopping"></i>
+												</a>
+												<a href="#">
+													<i class="fa-solid fa-heart"></i>
+												</a>
+												<a href="#">
+													<i class="fa-solid fa-magnifying-glass"></i>
+												</a>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="product-item-1">
+									<div class="product-item-1-inner">
+										<div class="product-block">
+											<div class="image">
+												<a href="#">
+													<img src="assets/images/freshmart/2.webp" alt="">
+												</a>
+											</div>
+											<div class="image-hover">
+												<a href="#">
+													<img src="assets/images/freshmart/3.webp" alt="">
+												</a>
+											</div>
+											<div class="details" style="padding-top: 10px;">
+												<a href="#">Organic Strawberry Fruits</a>
+											</div>
+											<div class="rating" style="padding-bottom: 25px; padding-top: 10px;">
+												<i class="fa-solid fa-star"></i>
+												<i class="fa-solid fa-star"></i>
+												<i class="fa-solid fa-star"></i>
+												<i class="fa-solid fa-star"></i>
+												<i class="fa-solid fa-star"></i>
+											</div>
+											<div class="product-price">
+												<span>$5.00</span>
+											</div>
+											<div class="product-icon">
+												<a href="#">
+													<i class="fa-solid fa-basket-shopping"></i>
+												</a>
+												<a href="#">
+													<i class="fa-solid fa-heart"></i>
+												</a>
+												<a href="#">
+													<i class="fa-solid fa-magnifying-glass"></i>
+												</a>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="product-item-1">
+									<div class="product-item-1-inner">
+										<div class="product-block">
+											<div class="image">
+												<a href="#">
+													<img src="assets/images/freshmart/3.webp" alt="">
+												</a>
+											</div>
+											<div class="image-hover">
+												<a href="#">
+													<img src="assets/images/freshmart/1.webp" alt="">
+												</a>
+											</div>
+											<div class="details" style="padding-top: 10px;">
+												<a href="#">Organic Strawberry Fruits</a>
+											</div>
+											<div class="rating" style="padding-bottom: 25px; padding-top: 10px;">
+												<i class="fa-solid fa-star"></i>
+												<i class="fa-solid fa-star"></i>
+												<i class="fa-solid fa-star"></i>
+												<i class="fa-solid fa-star"></i>
+												<i class="fa-solid fa-star"></i>
+											</div>
+											<div class="product-price">
+												<span>$15.00</span>
+											</div>
+											<div class="product-icon">
+												<a href="#">
+													<i class="fa-solid fa-basket-shopping"></i>
+												</a>
+												<a href="#">
+													<i class="fa-solid fa-heart"></i>
+												</a>
+												<a href="#">
+													<i class="fa-solid fa-magnifying-glass"></i>
+												</a>
+											</div>
+										</div>
+									</div>
+                                    </div>
+                                    <div class="product-item-1">
+                                        <div class="product-item-1-inner">
+                                            <div class="product-block">
+                                                <div class="image">
+                                                    <a href="#">
+                                                        <img src="assets/images/freshmart/4.webp" alt="">
+                                                    </a>
+                                                </div>
+                                                <div class="image-hover">
+                                                    <a href="#">
+                                                        <img src="assets/images/freshmart/tomato-3.png" alt="">
+                                                    </a>
+                                                </div>
+                                                <div class="details" style="padding-top: 10px;">
+                                                    <a href="#">Organic Strawberry Fruits</a>
+                                                </div>
+                                                <div class="rating" style="padding-bottom: 25px; padding-top: 10px;">
+                                                    <i class="fa-solid fa-star"></i>
+                                                    <i class="fa-solid fa-star"></i>
+                                                    <i class="fa-solid fa-star"></i>
+                                                    <i class="fa-solid fa-star"></i>
+                                                    <i class="fa-solid fa-star"></i>
+                                                </div>
+                                                <div class="product-price">
+                                                    <span>$44.00</span>
+                                                    <span class="price">$60.00</span>
+                                                </div>
+                                                <div class="product-icon">
+                                                    <a href="#">
+                                                        <i class="fa-solid fa-basket-shopping"></i>
+                                                    </a>
+                                                    <a href="#">
+                                                        <i class="fa-solid fa-heart"></i>
+                                                    </a>
+                                                    <a href="#">
+                                                        <i class="fa-solid fa-magnifying-glass"></i>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="neweletter-main">
+                                <h2>Newsletter</h2>
+                                <div class="ditail-block">
+                                    <p>Sign up for newsletter to receive special offers and exclusive
+                                        news about FreshMart products
+                                    </p>
+                                    <form action="" method="post">
+                                        <input type="email" placeholder="Enter Your Email">
+                                        <button type="submit">Subscribe</button>
+                                    </form>
+                                </div>
+                            </div>
+                            <div class="section-product">
+                                <div class="fruite-product">
+                                    <div class="title-name">
+                                        <h2>Fruits</h2>
+                                        <div class="arrow-button">
+                                            <div class="button-1">
+                                                <i class="fa-solid fa-arrow-left"></i>
+                                            </div>
+                                            <div class="button-2">
+                                                <i class="fa-solid fa-arrow-right"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="fruite-product-inner">
+                                        <div class="product-item-1">
+                                            <div class="product-item-1-inner">
+                                                <div class="product-block">
+                                                    <div class="image">
+                                                        <a href="#">
+                                                            <img src="assets/images/freshmart/kiwi.png" alt="">
+                                                        </a>
+                                                    </div>
+                                                    <div class="discount">
+                                                        <span>-25%</span>
+                                                    </div>
+                                                    <div class="image-hover">
+                                                        <a href="#">
+                                                            <img src="assets/images/freshmart/orange.webp" alt="">
+                                                        </a>
+                                                    </div>
+                                                    <div class="details" style="padding-top: 10px;">
+                                                        <a href="#">Organic Strawberry Fruits</a>
+                                                    </div>
+                                                    <div class="rating" style="padding-bottom: 25px; padding-top: 10px;">
+                                                        <i class="fa-solid fa-star"></i>
+                                                        <i class="fa-solid fa-star"></i>
+                                                        <i class="fa-solid fa-star"></i>
+                                                        <i class="fa-solid fa-star"></i>
+                                                        <i class="fa-solid fa-star"></i>
+                                                    </div>
+                                                    <div class="product-price">
+                                                        <span>$45.00</span>
+                                                        <span class="price">$60.00</span>
+                                                    </div>
+                                                    <div class="product-icon">
+                                                        <a href="#">
+                                                            <i class="fa-solid fa-check"></i>
+                                                        </a>
+                                                        <a href="#">
+                                                            <i class="fa-solid fa-heart"></i>
+                                                        </a>
+                                                        <a href="#">
+                                                            <i class="fa-solid fa-magnifying-glass"></i>
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="product-item-1">
+                                            <div class="product-item-1-inner">
+                                                <div class="product-block">
+                                                    <div class="image">
+                                                        <a href="#">
+                                                            <img src="assets/images/freshmart/apple.webp" alt="">
+                                                        </a>
+                                                    </div>
+                                                    <div class="image-hover">
+                                                        <a href="#">
+                                                            <img src="assets/images/freshmart/pich1.webp" alt="">
+                                                        </a>
+                                                    </div>
+                                                    <div class="details" style="padding-top: 10px;">
+                                                        <a href="#">Organic Strawberry Fruits</a>
+                                                    </div>
+                                                    <div class="rating" style="padding-bottom: 25px; padding-top: 10px;">
+                                                        <i class="fa-solid fa-star"></i>
+                                                        <i class="fa-solid fa-star"></i>
+                                                        <i class="fa-solid fa-star"></i>
+                                                        <i class="fa-solid fa-star"></i>
+                                                        <i class="fa-solid fa-star"></i>
+                                                    </div>
+                                                    <div class="product-price">
+                                                        <span>$12.00</span>
+                                                    </div>
+                                                    <div class="product-icon">
+                                                        <a href="#">
+                                                            <i class="fa-solid fa-check"></i>
+                                                        </a>
+                                                        <a href="#">
+                                                            <i class="fa-solid fa-heart"></i>
+                                                        </a>
+                                                        <a href="#">
+                                                            <i class="fa-solid fa-magnifying-glass"></i>
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="fruite-product">
+                                    <div class="title-name">
+                                        <h2>Juices</h2>
+                                        <div class="arrow-button">
+                                            <div class="button-1">
+                                                <i class="fa-solid fa-arrow-left"></i>
+                                            </div>
+                                            <div class="button-2">
+                                                <i class="fa-solid fa-arrow-right"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="fruite-product-inner">
+                                        <div class="product-item-1">
+                                            <div class="product-item-1-inner">
+                                                <div class="product-block">
+                                                    <div class="image">
+                                                        <a href="#">
+                                                            <img src="assets/images/freshmart/avocado.webp" alt="">
+                                                        </a>
+                                                    </div>
+                                                    <div class="discount">
+                                                        <span>-33%</span>
+                                                    </div>
+                                                    <div class="image-hover">
+                                                        <a href="#">
+                                                            <img src="assets/images/freshmart/kiwi.png" alt="">
+                                                        </a>
+                                                    </div>
+                                                    <div class="details" style="padding-top: 10px;">
+                                                        <a href="#">Organic Strawberry Fruits</a>
+                                                    </div>
+                                                    <div class="rating" style="padding-bottom: 25px; padding-top: 10px;">
+                                                        <i class="fa-solid fa-star"></i>
+                                                        <i class="fa-solid fa-star"></i>
+                                                        <i class="fa-solid fa-star"></i>
+                                                        <i class="fa-solid fa-star"></i>
+                                                        <i class="fa-solid fa-star"></i>
+                                                    </div>
+                                                    <div class="product-price">
+                                                        <span>$20.00</span>
+                                                        <span class="price">$30.00</span>
+                                                    </div>
+                                                    <div class="product-icon">
+                                                        <a href="#">
+                                                            <i class="fa-solid fa-check"></i>
+                                                        </a>
+                                                        <a href="#">
+                                                            <i class="fa-solid fa-heart"></i>
+                                                        </a>
+                                                        <a href="#">
+                                                            <i class="fa-solid fa-magnifying-glass"></i>
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="product-item-1">
+                                            <div class="product-item-1-inner">
+                                                <div class="product-block">
+                                                    <div class="image">
+                                                        <a href="#">
+                                                            <img src="assets/images/freshmart/cherry.jpg" alt="">
+                                                        </a>
+                                                    </div>
+                                                    <div class="discount">
+                                                        <span>-50%</span>
+                                                    </div>
+                                                    <div class="image-hover">
+                                                        <a href="#">
+                                                            <img src="assets/images/freshmart/pich1.webp" alt="">
+                                                        </a>
+                                                    </div>
+                                                    <div class="details" style="padding-top: 10px;">
+                                                        <a href="#">Organic Strawberry Fruits</a>
+                                                    </div>
+                                                    <div class="rating" style="padding-bottom: 25px; padding-top: 10px;">
+                                                        <i class="fa-solid fa-star"></i>
+                                                        <i class="fa-solid fa-star"></i>
+                                                        <i class="fa-solid fa-star"></i>
+                                                        <i class="fa-solid fa-star"></i>
+                                                        <i class="fa-solid fa-star"></i>
+                                                    </div>
+                                                    <div class="product-price">
+                                                        <span>$15.00</span>
+                                                        <span class="price">$30.00</span>
+                                                    </div>
+                                                    <div class="product-icon">
+                                                        <a href="#">
+                                                            <i class="fa-solid fa-check"></i>
+                                                        </a>
+                                                        <a href="#">
+                                                            <i class="fa-solid fa-heart"></i>
+                                                        </a>
+                                                        <a href="#">
+                                                            <i class="fa-solid fa-magnifying-glass"></i>
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="section-banner">
+                                <div class="banner">
+                                    <div class="banner-item">
+                                        <div class="banner-item-inner image-effect">
+                                            <a href="#">
+                                                <img src="assets/images/freshmart/banner1.png" alt="">
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="banner-item">
+                                        <div class="banner-item-inner image-effect">
+                                            <a href="#">
+                                                <img src="assets/images/freshmart/banner2.png" alt="">
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="arrials-block">
+                                <div class="title-name">
+                                    <h2>NEW ARRIALS</h2>
+                                    <div class="arrow-button">
+                                        <div class="button-1">
+                                            <i class="fa-solid fa-arrow-left"></i>
+                                        </div>
+                                        <div class="button-2">
+                                            <i class="fa-solid fa-arrow-right"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="new-product">
+                                    <div class="new-product-item">
+                                        <div class="new-product-inner">
+                                            <div class="image">
+                                                <div class="product-img">
+                                                    <img src="assets/images/freshmart/1.1.webp" alt="">
+                                                    <div class="image-hover">
+                                                        <a href="#">
+                                                            <img src="assets/images/freshmart/lemon.webp" alt="">
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                                <div class="product-info">
+                                                    <a class="details" href="#">
+                                                        Organic Strawberry Fruits
+                                                    </a>
+                                                    <div class="rating">
+                                                        <i class="fa-solid fa-star"></i>
+                                                        <i class="fa-solid fa-star"></i>
+                                                        <i class="fa-solid fa-star"></i>
+                                                        <i class="fa-solid fa-star"></i>
+                                                        <i class="fa-solid fa-star"></i>
+                                                    </div>
+                                                    <div class="product-price">
+                                                        <span>$5.00</span>
+                                                    </div>
+                                                    <div class="product-icon">
+                                                        <a href="#">
+                                                            <i class="fa-solid fa-check"></i>
+                                                        </a>
+                                                        <a href="#">
+                                                            <i class="fa-solid fa-heart"></i>
+                                                        </a>
+                                                        <a href="#">
+                                                            <i class="fa-solid fa-magnifying-glass"></i>
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="new-product-item">
+                                        <div class="new-product-inner">
+                                            <div class="image">
+                                                <div class="product-img">
+                                                    <img src="assets/images/freshmart/2.webp" alt="">
+                                                    <div class="image-hover">
+                                                        <a href="#">
+                                                            <img src="assets/images/freshmart/lemon.webp" alt="">
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                                <div class="product-info">
+                                                    <a class="details" href="#">
+                                                        Organic Strawberry Fruits
+                                                    </a>
+                                                    <div class="rating">
+                                                        <i class="fa-solid fa-star"></i>
+                                                        <i class="fa-solid fa-star"></i>
+                                                        <i class="fa-solid fa-star"></i>
+                                                        <i class="fa-solid fa-star"></i>
+                                                        <i class="fa-solid fa-star"></i>
+                                                    </div>
+                                                    <div class="product-price">
+                                                        <span>$44.00</span>
+                                                    </div>
+                                                    <div class="product-icon">
+                                                        <a href="#">
+                                                            <i class="fa-solid fa-check"></i>
+                                                        </a>
+                                                        <a href="#">
+                                                            <i class="fa-solid fa-heart"></i>
+                                                        </a>
+                                                        <a href="#">
+                                                            <i class="fa-solid fa-magnifying-glass"></i>
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="new-product-item">
+                                        <div class="new-product-inner">
+                                            <div class="image">
+                                                <div class="product-img">
+                                                    <img src="assets/images/freshmart/1.webp" alt="">
+                                                    <div class="image-hover">
+                                                        <a href="#">
+                                                            <img src="assets/images/freshmart/lemon.webp" alt="">
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                                <div class="product-info">
+                                                    <a class="details" href="#">
+                                                        Organic Strawberry Fruits
+                                                    </a>
+                                                    <div class="rating">
+                                                        <i class="fa-solid fa-star"></i>
+                                                        <i class="fa-solid fa-star"></i>
+                                                        <i class="fa-solid fa-star"></i>
+                                                        <i class="fa-solid fa-star"></i>
+                                                        <i class="fa-solid fa-star"></i>
+                                                    </div>
+                                                    <div class="product-price">
+                                                        <span>$12.00</span>
+                                                    </div>
+                                                    <div class="product-icon">
+                                                        <a href="#">
+                                                            <i class="fa-solid fa-check"></i>
+                                                        </a>
+                                                        <a href="#">
+                                                            <i class="fa-solid fa-heart"></i>
+                                                        </a>
+                                                        <a href="#">
+                                                            <i class="fa-solid fa-magnifying-glass"></i>
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="new-product-item">
+                                        <div class="new-product-inner">
+                                            <div class="image">
+                                                <div class="product-img">
+                                                    <img src="assets/images/freshmart/brocoli1.avif" alt="">
+                                                    <div class="image-hover">
+                                                        <a href="#">
+                                                            <img src="assets/images/freshmart/tomato-3.png" alt="">
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                                <div class="product-info">
+                                                    <a class="details" href="#">
+                                                        Organic Strawberry Fruits
+                                                    </a>
+                                                    <div class="rating">
+                                                        <i class="fa-solid fa-star"></i>
+                                                        <i class="fa-solid fa-star"></i>
+                                                        <i class="fa-solid fa-star"></i>
+                                                        <i class="fa-solid fa-star"></i>
+                                                        <i class="fa-solid fa-star"></i>
+                                                    </div>
+                                                    <div class="product-price">
+                                                        <span>$10.00</span>
+                                                    </div>
+                                                    <div class="product-icon">
+                                                        <a href="#">
+                                                            <i class="fa-solid fa-basket-shopping"></i>
+                                                        </a>
+                                                        <a href="#">
+                                                            <i class="fa-solid fa-heart"></i>
+                                                        </a>
+                                                        <a href="#">
+                                                            <i class="fa-solid fa-magnifying-glass"></i>
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="new-product-item">
+                                        <div class="new-product-inner">
+                                            <div class="image">
+                                                <div class="product-img">
+                                                    <img src="assets/images/freshmart/4.webp" alt="">
+                                                    <div class="image-hover">
+                                                        <a href="#">
+                                                            <img src="assets/images/freshmart/tomato-3.png" alt="">
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                                <div class="product-info">
+                                                    <a class="details" href="#">
+                                                        Organic Strawberry Fruits
+                                                    </a>
+                                                    <div class="rating">
+                                                        <i class="fa-solid fa-star"></i>
+                                                        <i class="fa-solid fa-star"></i>
+                                                        <i class="fa-solid fa-star"></i>
+                                                        <i class="fa-solid fa-star"></i>
+                                                        <i class="fa-solid fa-star"></i>
+                                                    </div>
+                                                    <div class="product-price">
+                                                        <span>$35.00</span>
+                                                    </div>
+                                                    <div class="product-icon">
+                                                        <a href="#">
+                                                            <i class="fa-solid fa-basket-shopping"></i>
+                                                        </a>
+                                                        <a href="#">
+                                                            <i class="fa-solid fa-heart"></i>
+                                                        </a>
+                                                        <a href="#">
+                                                            <i class="fa-solid fa-magnifying-glass"></i>
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="new-product-item">
+                                        <div class="new-product-inner">
+                                            <div class="image">
+                                                <div class="product-img">
+                                                    <img src="assets/images/freshmart/12.avif" alt="">
+                                                    <div class="image-hover">
+                                                        <a href="#">
+                                                            <img src="assets/images/freshmart/tomato-3.png" alt="">
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                                <div class="product-info">
+                                                    <a class="details" href="#">
+                                                        Organic Strawberry Fruits
+                                                    </a>
+                                                    <div class="rating">
+                                                        <i class="fa-solid fa-star"></i>
+                                                        <i class="fa-solid fa-star"></i>
+                                                        <i class="fa-solid fa-star"></i>
+                                                        <i class="fa-solid fa-star"></i>
+                                                        <i class="fa-solid fa-star"></i>
+                                                    </div>
+                                                    <div class="product-price">
+                                                        <span>$36.00</span>
+                                                    </div>
+                                                    <div class="product-icon">
+                                                        <a href="#">
+                                                            <i class="fa-solid fa-basket-shopping"></i>
+                                                        </a>
+                                                        <a href="#">
+                                                            <i class="fa-solid fa-heart"></i>
+                                                        </a>
+                                                        <a href="#">
+                                                            <i class="fa-solid fa-magnifying-glass"></i>
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="new-product-item">
+                                        <div class="new-product-inner">
+                                            <div class="image">
+                                                <div class="product-img">
+                                                    <img src="assets/images/freshmart/avocado.webp" alt="">
+                                                    <div class="image-hover">
+                                                        <a href="#">
+                                                            <img src="assets/images/freshmart/kiwi.png" alt="">
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                                <div class="product-info">
+                                                    <a class="details" href="#">
+                                                        Organic Strawberry Fruits
+                                                    </a>
+                                                    <div class="rating">
+                                                        <i class="fa-solid fa-star"></i>
+                                                        <i class="fa-solid fa-star"></i>
+                                                        <i class="fa-solid fa-star"></i>
+                                                        <i class="fa-solid fa-star"></i>
+                                                        <i class="fa-solid fa-star"></i>
+                                                    </div>
+                                                    <div class="product-price">
+                                                        <span>$15.00</span>
+                                                    </div>
+                                                    <div class="product-icon">
+                                                        <a href="#">
+                                                            <i class="fa-solid fa-check"></i>
+                                                        </a>
+                                                        <a href="#">
+                                                            <i class="fa-solid fa-heart"></i>
+                                                        </a>
+                                                        <a href="#">
+                                                            <i class="fa-solid fa-magnifying-glass"></i>
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="new-product-item">
+                                        <div class="new-product-inner">
+                                            <div class="image">
+                                                <div class="product-img">
+                                                    <img src="assets/images/freshmart/apple.webp" alt="">
+                                                    <div class="image-hover">
+                                                        <a href="#">
+                                                            <img src="assets/images/freshmart/kiwi.png" alt="">
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                                <div class="product-info">
+                                                    <a class="details" href="#">
+                                                        Organic Strawberry Fruits
+                                                    </a>
+                                                    <div class="rating">
+                                                        <i class="fa-solid fa-star"></i>
+                                                        <i class="fa-solid fa-star"></i>
+                                                        <i class="fa-solid fa-star"></i>
+                                                        <i class="fa-solid fa-star"></i>
+                                                        <i class="fa-solid fa-star"></i>
+                                                    </div>
+                                                    <div class="product-price">
+                                                        <span>$20.00</span>
+                                                    </div>
+                                                    <div class="product-icon">
+                                                        <a href="#">
+                                                            <i class="fa-solid fa-check"></i>
+                                                        </a>
+                                                        <a href="#">
+                                                            <i class="fa-solid fa-heart"></i>
+                                                        </a>
+                                                        <a href="#">
+                                                            <i class="fa-solid fa-magnifying-glass"></i>
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="new-product-item">
+                                        <div class="new-product-inner">
+                                            <div class="image">
+                                                <div class="product-img">
+                                                    <img src="assets/images/freshmart/bread.webp" alt="">
+                                                    <div class="image-hover">
+                                                        <a href="#">
+                                                            <img src="assets/images/freshmart/kiwi.png" alt="">
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                                <div class="product-info">
+                                                    <a class="details" href="#">
+                                                        Organic Strawberry Fruits
+                                                    </a>
+                                                    <div class="rating">
+                                                        <i class="fa-solid fa-star"></i>
+                                                        <i class="fa-solid fa-star"></i>
+                                                        <i class="fa-solid fa-star"></i>
+                                                        <i class="fa-solid fa-star"></i>
+                                                        <i class="fa-solid fa-star"></i>
+                                                    </div>
+                                                    <div class="product-price">
+                                                        <span>$12.00</span>
+                                                    </div>
+                                                    <div class="product-icon">
+                                                        <a href="#">
+                                                            <i class="fa-solid fa-check"></i>
+                                                        </a>
+                                                        <a href="#">
+                                                            <i class="fa-solid fa-heart"></i>
+                                                        </a>
+                                                        <a href="#">
+                                                            <i class="fa-solid fa-magnifying-glass"></i>
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- BLOCK-3 TWO-PART-SECTION-END -->
+    
+        <!-- BLOCK-4 LARG-MAIN-IMAGE-START -->
+        <div class="section-main">
+            <div class="container">
+                <div class="header-part">
+                    <div class="header">
+                        <div class="header-inner">
+                            <img src="assets/images/freshmart/leaf-main.webp" alt="">
+                            <h3>Why Choose Us</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="section-main-inner">
+                    <div class="section-item-left">
+                        <div class="section-item-left-inner">
+                            <div class="detail-block">
+                                <img src="assets/images/freshmart/leaf-main.webp" alt="">
+                                <h2>Always fresh</h2>
+                                <p>Lorem ipsum dolor sit amet, consectetur elit, sed do eiusmod tempor
+                                    incididunt ut labore et dolore magna aliqua.
+                                </p>
+                            </div>
+                            <div class="detail-block">
+                                <img src="assets/images/freshmart/intro-icon-3.png" alt="">
+                                <h2>Super Healthy</h2>
+                                <p>Lorem ipsum dolor sit amet, consectetur elit, sed do eiusmod tempor
+                                    incididunt ut labore et dolore magna aliqua.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="section-item-center">
+                        <div class="section-item-center-inner image-effect">
+                            <a href="#">
+                                <img src="assets/images/freshmart/intro-2.png" alt="">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="section-item-left">
+                        <div class="section-item-left-inner">
+                            <div class="detail-block">
+                                <img src="assets/images/freshmart/tree.webp" alt="">
+                                <h2>100% Natural</h2>
+                                <p>Lorem ipsum dolor sit amet, consectetur elit, sed do eiusmod tempor
+                                    incididunt ut labore et dolore magna aliqua.
+                                </p>
+                            </div>
+                            <div class="detail-block">
+                                <img src="assets/images/freshmart/gift.webp" alt="">
+                                <h2>Premium Quality</h2>
+                                <p>Lorem ipsum dolor sit amet, consectetur elit, sed do eiusmod tempor
+                                    incididunt ut labore et dolore magna aliqua.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- BLOCK-4 LARG-MAIN-IMAGE-END  -->
+         <!-- BLOCK-5 FOOTER - START -->
+	<div class="footer">
+		<div class="container">
+			<div class="footer-inner">
+				<div class="footer-item">
+					<div class="footer-item-inner">
+						<div class="footer-details">
+							<div class="image">
+								<a href="#">
+									<img src="images/logo-2.png" alt="">
+								</a>
+							</div>
+							<p class="main-p">Lorem ipsum dolor sit amet, consectetur adipisc ing elit, sed do eiusmod
+								tempor incididunt ut labore et dolore magna aliqua.<br>
+								ut enim ad minim veniam, quis nostrud exercita tion ullamco laboris nisi ut aliquip ex
+								ea
+							</p>
+							<div class="social-icon">
+								<a href="#">
+									<i class="fa-brands fa-facebook-f"></i>
+								</a>
+								<a href="#">
+									<i class="fa-brands fa-pinterest-p"></i>
+								</a>
+								<a href="#">
+									<i class="fa-brands fa-instagram"></i>
+								</a>
+								<a href="#">
+									<i class="fa-brands fa-twitter"></i>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="footer-item">
+					<div class="footer-item-inner">
+						<h2>Information</h2>
+						<div class="footer-details">
+							<ul>
+								<li>
+									<a href="#">Specials</a>
+								</li>
+								<li>
+									<a href="#">New products</a>
+								</li>
+								<li>
+									<a href="#">Best sellers</a>
+								</li>
+								<li>
+									<a href="#">Terms and conditions</a>
+								</li>
+								<li>
+									<a href="#">Our stores</a>
+								</li>
+								<li>
+									<a href="#">Contact us</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="footer-item">
+					<div class="footer-item-inner">
+						<h2>Your account</h2>
+						<div class="footer-details">
+							<ul>
+								<li>
+									<a href="#">My orders</a>
+								</li>
+								<li>
+									<a href="#">My merchandise returns</a>
+								</li>
+								<li>
+									<a href="#">My credit slips</a>
+								</li>
+								<li>
+									<a href="#">My addresses</a>
+								</li>
+								<li>
+									<a href="#">My personal info</a>
+								</li>
+								<li>
+									<a href="#">My vouchers</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="footer-item">
+					<div class="footer-item-inner">
+						<h2>Contact Us</h2>
+						<div class="footer-details">
+							<div class="footer-icon">
+								<div><i class="fa-solid fa-house"></i></div>
+								<p>Address : 123 Suspendis matti, Visaosang Building VST District, North
+									American
+								</p>
+							</div>
+							<div class="footer-icon">
+								<div><i class="fa-solid fa-phone-volume"></i></div>
+								<div>Hotline :</div>
+								<div>0123-456-78910<br>0987-654-32100</div>
+							</div>
+							<div class="footer-icon">
+								<div><i class="fa-solid fa-envelope"></i></div>
+								<div>Email :</div>
+								<div>support@domain.com<br>bibostore@domain.com</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- BLOCK-5 FOOTER - START -->
+	<!-- BLOCK-6 COPYWRITE-BOCK-START -->
+	<div class="footer-copywrite">
+		<div class="container">
+			<div class="paymeny">
+				<img src="assets/images/freshmart/payment.png" alt="">
+			</div>
+			<div class="copywrite-text">
+				Copyright © 2021 Vinovathemes. All rights reserved.
+			</div>
+		</div>
+	</div>
+	<!-- BLOCK-6 COPYWRITE-BOCK-END -->
+     
+    
+     
+    
+
+    </body>
+    </html>
+
+
+   
